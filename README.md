@@ -4,21 +4,20 @@
 Este proyecto contiene ejemplos prácticos de code smells comunes y sus versiones refactorizadas utilizando las características de Java 21. Está diseñado para programadores Java con experiencia que deseen comprender cómo identificar code smells y aplicar técnicas modernas de Java para mejorar la calidad del código.
 
 ## Tabla de Contenidos
-- [Estructura del Proyecto](#estructura-del-proyecto)
-- [Code Smells y Refactorizaciones](#code-smells-y-refactorizaciones)
-  1. [Long Method (Método Largo)](#1-long-method-método-largo)
-  2. [Large Class (Clase Grande)](#2-large-class-clase-grande)
-  3. [Feature Envy (Envidia de Características)](#3-feature-envy-envidia-de-características)
-  4. [Duplicate Code (Código Duplicado)](#4-duplicate-code-código-duplicado)
-  5. [Data Clumps (Agrupaciones de Datos)](#5-data-clumps-agrupaciones-de-datos)
-  6. [Switch Statements (Declaraciones Switch)](#6-switch-statements-declaraciones-switch)
-  7. [Primitive Obsession (Obsesión por los Primitivos)](#7-primitive-obsession-obsesión-por-los-primitivos)
-  8. [Speculative Generality (Generalidad Especulativa)](#8-speculative-generality-generalidad-especulativa)
-  9. [Message Chains (Cadenas de Mensajes)](#9-message-chains-cadenas-de-mensajes)
-- [Cómo Ejecutar el Proyecto](#cómo-ejecutar-el-proyecto)
-- [Aspectos Técnicos y Características de Java 21](#aspectos-técnicos-y-características-de-java-21)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+- [Refactorización Avanzada de Code Smells en Java 21](#refactorización-avanzada-de-code-smells-en-java-21)
+  - [Tabla de Contenidos](#tabla-de-contenidos)
+  - [Estructura del Proyecto](#estructura-del-proyecto)
+    - [Paquetes Principales:](#paquetes-principales)
+  - [Code Smells y Refactorizaciones](#code-smells-y-refactorizaciones)
+    - [1. Long Method (Método Largo)](#1-long-method-método-largo)
+    - [2. Large Class (Clase Grande)](#2-large-class-clase-grande)
+  - [Cómo Ejecutar el Proyecto](#cómo-ejecutar-el-proyecto)
+    - [Prerrequisitos](#prerrequisitos)
+    - [Pasos](#pasos)
+  - [Aspectos Técnicos y Características de Java 21](#aspectos-técnicos-y-características-de-java-21)
+    - [Records](#records)
+  - [Contribuciones](#contribuciones)
+  - [Licencia](#licencia)
 
 ## Estructura del Proyecto
 
@@ -77,7 +76,7 @@ El método `procesarTransacciones` es demasiado largo y realiza múltiples tarea
 
 1. **Clonar el Repositorio**:
    ```bash
-   git clone https://github.com/tuusuario/AdvancedCodeSmellsRefactoring.git
+   git clone https://github.com/jdanieln/AdvancedCodeSmellsRefactoring.git
    ```
 
 2. **Importar el Proyecto en Eclipse**:
