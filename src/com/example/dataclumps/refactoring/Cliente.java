@@ -1,5 +1,3 @@
 package com.example.dataclumps.refactoring;
 
-public class Cliente {
-
-}
+public record Cliente(String nombre, String apellido, String telefono, String email) {}
